@@ -31,7 +31,7 @@
             "$ref": "https://citation-file-format.github.io/1.2.0/schema#/properties/date-released"
         },
         "doi": {
-            "pattern": "^doi:10\\.\\d{4,9}(\\.\\d+)?/[A-Za-z0-9:/-_;\\.\\(\\)\\[\\]\\\\]+$",
+            "pattern": "^doi:10\\.\\d{4,9}(\\.\\d+)?/[A-Za-z0-9:/_;\\-\\.\\(\\)\\[\\]\\\\]+$",
             "type": "string"
         },
         "identifiers": {
@@ -63,6 +63,9 @@
         },
         "version": {
             "$ref": "https://citation-file-format.github.io/1.2.0/schema#/properties/version"
+        },
+        "preferred-citation": {
+            "$ref": "https://citation-file-format.github.io/1.2.0/schema#/properties/preferred-citation"
         },
         "references": {
             "$ref": "https://citation-file-format.github.io/1.2.0/schema#/properties/references"
