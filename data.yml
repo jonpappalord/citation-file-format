@@ -1,7 +1,7 @@
 authors: 
   - name: "entity name"
   - given-names: "Given Names"
-cff-version: 1.1.0
+cff-version: 1.2.0
 commit: af34567890123458901234567890123456789012
 identifiers:
 - type: doi
@@ -26,3 +26,6 @@ repository-artifact: https://files.pythonhosted.org/packages/0a/84/10507b69a0776
 repository-code: https://github.com/citation-file-format/citation-file-format
 type: software
 url: https://github.com/citation-file-format/citation-file-format
+date-released: "2021-05-17"
+title: "The title"
+version: 0.1.7-SNAPSHOT
