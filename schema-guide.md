@@ -1213,8 +1213,8 @@ An entity can represent different types of entities, such as a team, an institut
 ### `definitions.identifier`
 
 - **type**: One of the following `object`s:
-    <details>
-      <summary>1. DOI (click to expand)</summary>
+<details>
+  <summary>1. DOI (click to expand)</summary>
         - `type`:
             - **type**: `enum` with singular value `doi`
             - **required**: `true`
@@ -1227,7 +1227,7 @@ An entity can represent different types of entities, such as a team, an institut
             - **type**: [`definitions.identifier-description`](#definitionsidentifier-description)
             - **required**: `false`
             - **description**: The description of the DOI, e.g. `This is the DOI for version 0.11.4.`
-    </details>
+</details>
     1. URL
         - `type`:
             - **type**: `enum` with singular value `url`
